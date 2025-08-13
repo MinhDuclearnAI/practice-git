@@ -1,7 +1,6 @@
-print('version 1')
+print('version 3')
 #dem so phan tu khac nhau
 a = list(map(int, input().split()))
-b = a.copy()
-a = set(a)
-print(len(a))
-b = b[:: -1]
+a.pop()
+a.insert(5, 22)
+print(a)

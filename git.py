@@ -1,4 +1,4 @@
-a = list(map(int, input('version 1 nhap list di:').split()))
+a = list(map(int, input('version 3 nhap list di:').split()))
 n = int(input())
-a = [x * n for x in a]
+a = list(map(lambda x : x * 10, a))
 print(a)
