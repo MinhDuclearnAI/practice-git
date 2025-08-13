@@ -1,5 +1,5 @@
 print('version 1')
 #dem so phan tu khac nhau
 a = list(map(int, input().split()))
-a = set(a)
-print(len(a))
+fuct = lambda x: x ** 2
+print(fuct(a[0]))
