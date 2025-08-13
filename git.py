@@ -1,4 +1,4 @@
-a = list(map(int, input('version 3 nhap list di:').split()))
-n = int(input())
-a = list(map(lambda x : x * 10, a))
-print(a)
+print('update version 1')
+a = (('one:', 'CR7'), ('two:', 'Messi'), ('three:','goat'))
+for x, y in a:
+    print(x,'->' ,y)
